@@ -1,0 +1,54 @@
+body {
+    background-color: #121212;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a, a:focus {
+    text-decoration: none;
+    color: #fff;
+    transition:all 0.2s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+    transition:all 0.2s ease-in-out;
+}
+
+.snap:hover {
+    color: #fffc00;
+}
+
+.vsco:hover {
+    color: #000;
+}
+
+.facebook:hover {
+    color: #3b5998;
+}
+
+.twitter:hover {
+    color: #1da1f2;
+}
+
+.insta:hover {
+    color: #8a239f;
+}
+
+.youtube:hover {
+    color: #cc181e;
+}
+
+.bloock {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.blooock {
+    margin-top: -10%;
+}

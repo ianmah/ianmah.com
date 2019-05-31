@@ -1,0 +1,444 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.brand-img {
+    margin-top: -25px;
+    height: 70px;
+    transition: all .5s ease-in-out;
+}
+/*
+poop {
+    font-size: 30px;
+    transition: all .5s ease-in-out;
+}*/
+@media(max-width:767px) {
+    .brand-img {
+        margin-top: -10px;
+        margin-left: 12px;
+        height: 41px;
+        transition: all .5s ease-in-out;
+    }
+    
+    .introo p {
+        padding-top: 2.5%;
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+}
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+    
+    .img-dope {
+        margin-left: 20%;
+    }
+    
+    /*
+    .top-nav-collapse poop {
+        font-size: 18px;
+        transition: all .5s ease-in-out;
+    }*/
+}
+
+
+.navbar-collapse {
+    overflow: hidden;
+}
+
+.top-nav-collapse img {
+    margin-top: -10px;
+    height: 41px;
+    transition: all .5s ease-in-out;
+    
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #469af8;
+}
+
+a, a:focus {
+    transition:all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+a:hover {
+    transition:all 0.3s ease-in-out;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus{
+    background-color:transparent;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #469af8;
+    background-color:transparent;
+}
+.boton1 {
+    background: #fff;
+    color:#3472B8;
+    padding: 10px 20px;
+    box-shadow:0px 0px 0 #ddd inset;
+    text-decoration:none;
+    margin-right: -20px;
+}
+.boton1:hover{ 
+    color:#fff;
+    background:#fff;
+    box-shadow:-280px -90px 0px #3472B8 inset;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+    text-decoration:none;
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background-image: url("http://i.imgur.com/BOFkS8E.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-height:470px) {
+    .intro-section {
+        padding-top: 10%;
+    }
+    
+    .modal-img {
+        height: 300px;
+        width: auto;
+        overflow-y: scroll;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:500px) {
+    .intro-section {
+        height: 100%;
+        padding-top: 150px;/*
+        text-align: center;
+        background-image: url("http://i.imgur.com/BOFkS8E.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto 100%;*/
+    }
+}
+
+.intro-section h1 {
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    margin-top: 10%;
+    color: #fff;
+}
+
+.intro-section p {
+    color: #fff;
+}
+
+.block-title {
+    border-top: 1px solid #4e4e4e;
+    text-align: center;
+}
+
+.block-title h1 {
+    color: #fff;
+    font-size: 36px;
+    padding: 0px 30px;
+    display: inline-block;
+    margin-top: -90px;
+    background: #232323;
+    padding-bottom: 4%;
+}
+
+.extra {
+    margin-bottom: 50px;
+}
+
+.section-one {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background: #232323;
+}
+
+.section-one h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.section-one h3 {
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.section-one p {
+    color: #c4c4c4;
+}
+
+.introo p {
+    margin-top: 20px;
+}
+
+.section-two {
+    padding-top: 40px;
+    padding-bottom: 58px;
+    text-align: center;
+    background: #fff;
+}
+
+.section-two h1 {
+    margin-bottom: 16px;
+}
+
+.section-two h3 {
+    margin-bottom: 12px;
+}
+
+.section-two p {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 36px;
+}
+
+.section-three {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.section-three h1 {
+    padding-bottom: 30px;
+}
+
+.page-two {
+    margin-top: 10px;
+    height: 100%;
+}
+
+.page-two p {
+    margin-bottom: 40px;
+}
+
+.dank:hover {
+    text-decoration: none;
+}
+
+.twoo {
+    background-color: #232323;
+}
+
+.skills img {
+    height:200px;
+    margin: auto;
+}
+
+.portfolio-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.portfolio-modal .modal-content h2 {
+  margin-top: -50px;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.portfolio-modal .modal-content img {
+  margin: auto;
+}
+.portfolio-modal .modal-content p {
+  margin-bottom: 46px;
+}
+
+.modal-img {
+    height: 600px;
+    width: 100%;
+    overflow-y: scroll;
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .close-modal {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  background-color: transparent;
+  top: 25px;
+  right: 30px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+  transition: 0.3s ease-in-out;
+}
+.portfolio-modal .close-modal .lr {
+  height: 42px;
+  width: 1px;
+  margin-left: 24px;
+  background-color: #2C3E50;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+.portfolio-modal .close-modal .lr .rl {
+  height: 42px;
+  width: 1px;
+  background-color: #2C3E50;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+.portfolio-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
+/*
+.carousel-inner>.item>img {
+    height: 500px;
+    margin: auto;
+}
+
+@media (min-height:700px){
+    .carousel-inner>.item>img {
+    height: 700px;
+}
+}*/
+
+.carousel-inner>.item>img {
+    width: 760px;
+    margin: auto;
+}
+
+@media (min-height:700px){
+    .carousel-inner>.item>img {
+        width: 1200px;
+    }
+}
+
+.section-four {
+    padding-top: 43px;
+}
+
+.section-four p {
+    color: #fff;
+}
+
+.section-four h1 {
+    margin-bottom: 30px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.glyphicon-chevron-right, .glyphicon-chevron-left {
+    color: #444444;
+}
+
+.carousel-caption p {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+@media(max-width:767px) {
+    
+    .section-one img {
+        max-width: 200px;
+        margin: auto;
+    }
+    .carousel-indicators {
+        bottom: 0px;
+    }
+    
+    .carousel-caption {
+        bottom: 16px;
+    }
+    
+    .carousel-caption p {
+        font-size: 11.5px;
+        text-shadow: 0px 0px 4px #000;
+        margin-bottom: 5px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+.gradTrans p, .gradTrans h3 {
+    text-align: left;
+    padding-top: 7px;
+    margin-bottom: 28px;
+}
+
+.gradTrans2 h3 {
+    margin-top: -20px;
+    text-align: center;
+}
+
+.gradTrans2 p {
+    text-align: left;
+}
+
+li {
+	color: #c4c4c4;
+}
+
+h5 {
+	color: #c4c4c4;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 24px;
+}
+
+.sitemap a {
+	color: #c4c4c4;
+}
+
+.projects {
+	height: 690px;
+}
+
+@media(max-width:1201px) {
+.projects {
+	height: auto;
+}	
+}

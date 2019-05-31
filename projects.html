@@ -1,0 +1,25 @@
+
+{%- if site.posts.size > 0 -%}
+  <div class="post-list">
+    {%- for post in site.posts -%}
+
+    <div class="project">
+      <div class="project-img">
+          <img src="../assets/projects/{{post.slug}}.png">
+      </div>
+      <div class="project-content">
+        <span class="post-meta"> > {{ post.description }}</span>
+        <h2 class="project-title">{{ post.title | escape }}</h2>
+        <!-- <strong>Prompt:</strong> {{post.prompt}} -->
+        <div class="project-description">{{ post.content }}</div>
+        {% for tag in post.tags %}
+        <span class="tag">{{tag}}</span>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+        {% endfor %}
+      </div>
+      {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+      {%- endif -%}
+    </div>
+    {%- endfor -%}
+  {%- endif -%}

@@ -1,0 +1,36 @@
+body {
+    background-color: #fff;
+}
+
+h1 {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a, a:focus {
+    text-decoration: none;
+    color: #000;
+    transition:all 0.2s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+    transition:all 0.2s ease-in-out;
+}
+
+.bloock {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.blooock {
+    margin-top: -10%;
+}
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 24px;
+	}
+}
